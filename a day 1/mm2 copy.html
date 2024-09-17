@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        .invitation-card {
+            background-image: url('image-path.jpeg'); /* Replace 'image-path.jpeg' with the actual image path */
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            padding: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #343a40;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .invitation-card h1, .invitation-card h2, .invitation-card p {
+            color: #fff;
+        }
+        .invitation-card h1 {
+            font-family: 'Cursive', sans-serif;
+            font-size: 2.5em;
+            margin-bottom: 0;
+        }
+        .invitation-card h2 {
+            font-family: 'Cursive', sans-serif;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+        .invitation-card p {
+            font-size: 1.2em;
+        }
+        .invitation-card .date-time, .invitation-card .location {
+            margin-top: 20px;
+        }
+        .invitation-card .qr-code {
+            margin-top: 30px;
+        }
+        .invitation-card img {
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<div class="invitation-card">
+    <h1>Megha & Anand</h1>
+    <p>Cordially invite you and your family to grace the occasion of our wedding</p>
+
+    <div class="date-time">
+        <h2>SUNDAY 27 OCTOBER 2024</h2>
+        <p>MUHURTHAM: 10.30 AM to 11.30 AM</p>
+    </div>
+
+    <div class="location">
+        <p>AT SREE MAHAGANAPATHI TEMPLE SULTHAN BATHERY</p>
+        <p>And thereafter reception at ST. JOSEPH AUDITORIUM SULTHAN BATHERY</p>
+    </div>
+
+    <div class="qr-code">
+        <p>Scan QR Code to RSVP</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?data=Your_RSVP_Link_Here&size=150x150" alt="QR Code">
+    </div>
+</div>
+
+<!-- Location Map -->
+<div class="location-map mt-5">
+    <h3>Location</h3>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31390.341248258!2d76.25368261104825!3d11.661452642854634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6d2d9df1c44af%3A0xc5d1b215c7f4e14!2sSree%20Mahaganapathy%20Temple%2C%20Sulthan%20Bathery!5e0!3m2!1sen!2sin!4v1693922581484!5m2!1sen!2sin" 
+        width="100%" 
+        height="450" 
+        frameborder="0" 
+        style="border:0;" 
+        allowfullscreen="" 
+        aria-hidden="false" 
+        tabindex="0">
+    </iframe>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -18,7 +18,7 @@ body {
   color: #828282;
   background: #fff;
 }
-
+      
 #page {
   position: relative;
   overflow-x: hidden;
@@ -473,13 +473,13 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 250px;
   }
 }
-#fh5co-header h1 {
+# h1 {
   font-size: 60px;
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: normal;
   color: #113468;
-  font-family: "Satisfy", Arial, serif;
+  font-family: 'lucida Calligraphy';
 }
 @media screen and (max-width: 480px) {
   #fh5co-header h1 {
